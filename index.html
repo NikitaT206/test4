@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+
+<body class="body">
+
+  <header class="header">
+    <div class="header__logo-container">
+      <img class="header__logo-image" src="./images/logo.svg" alt="logo">
+      <h2 class="header__text">Global</h2>
+    </div>
+
+    <nav class="header__navigation">
+      <a class="header__link header__link_current" href="#">Mobile Top Up</a>
+      <a class="header__link" href="#">About</a>
+      <a class="header__link" href="#">Rate</a>
+      <a class="header__link" href="#">Help</a>
+    </nav>
+
+    <nav class="header__navigation-mobile">
+      <p class="header__current-link">Mobile Top Up</p>
+      <a class="header__link-mobile" href="#">Mobile Top Up</a>
+      <a class="header__link-mobile" href="#">About</a>
+      <a class="header__link-mobile" href="#">Rate</a>
+      <a class="header__link-mobile" href="#">Help</a>
+      <div class="header__triangle"></div>
+    </nav>
+
+    <button class="button">Sign Up</button>
+  </header>
+
+  <main class="main">
+
+    <div class="left-side">
+      <h1 class="title">Now Buy Your <br> PIN or <span class="title__highlighting">Top Up</span> <br> With Bank Transfer</h1>
+      <p class="subtitle">We Make international calling simple, relible, and cheap basedon your unique calling behavior.</p>
+      <button class="button">Get Started</button>
+
+      <form class="form">
+        <div class="form__input-container">
+          <input class="form__input" type="text" placeholder="Where do you want to call?" minlength="4" maxlength="12" required>
+          <button class="button form__search-button"></button>
+          <div class="form__line"></div>
+        </div>
+      </form>
+
+      <div class="regular-users">
+        <div class="regular-users__image-container">
+          <div class="regular-users__plus"></div>
+          <img class="regular-users__image" src="./images/Ellipse 293.png" alt="user">
+          <img class="regular-users__image" src="./images/Ellipse 292.png" alt="user">
+          <img class="regular-users__image" src="./images/Ellipse 291.png" alt="user">
+        </div>
+
+        <p class="regular-users__text">45k+ Regular User.
+          <a class="regular-users__text regular-users__text_highlight">View Price Plan</a>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="right-side">
+      <img class="main-image" src="./images/image 33.png" alt="main-image">
+      <div class="circle-green"></div>
+
+      <div class="circle-grey-container">
+        <div class="circle-grey">
+          <img class="circle-grey__country_hide" src="./images/1.svg" alt="country-ball">
+          <img class="circle-grey__country_hide" src="./images/2.svg" alt="country-ball">
+          <img class="circle-grey__country_hide" src="./images/3.svg" alt="country-ball">
+          <img class="circle-grey__country_hide" src="./images/4.svg" alt="country-ball">
+          <img class="circle-grey__country_hide" src="./images/1.svg" alt="country-ball">
+        </div>
+      </div>
+       
+    </div>
+    
+
+  </main>
+
+  <script src="./index.js"></script>
+
+</body>
+</html>
