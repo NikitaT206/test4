@@ -1,10 +1,11 @@
 const subtitle = document.querySelector('.subtitle')
+const body = document.querySelector('.body')
 
 fetch('https://baconipsum.com/api/?type=lucky')
   .then(data => data.json())
   .then(data => {
     subtitle.textContent = data[0]
-  }).catch(err => console.log(err))
+  }).catch(err => console.log(err)).finally(() => body.style.display = 'block')
 
 const counries = document.querySelectorAll('.circle-grey__country_hide')
 const circle = document.querySelector('.circle-grey')
