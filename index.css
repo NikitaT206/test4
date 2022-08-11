@@ -343,6 +343,10 @@ html {
   width: max-content;
   min-width: 320px;
   max-width: 320px;
+  max-height: 557px;
+  height: 557px;
+  display: flex;
+  align-self: flex-end;
 }
 
 .main-image {

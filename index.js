@@ -1,6 +1,13 @@
+const subtitle = document.querySelector('.subtitle')
+
+fetch('https://baconipsum.com/api/?type=lucky')
+  .then(data => data.json())
+  .then(data => {
+    subtitle.textContent = data[0]
+  }).catch(err => console.log(err))
+
 const counries = document.querySelectorAll('.circle-grey__country_hide')
 const circle = document.querySelector('.circle-grey')
-
 const ms = 400
 
 setTimeout(() => {
